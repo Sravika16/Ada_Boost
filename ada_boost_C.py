@@ -41,7 +41,7 @@ learning_rate = st.sidebar.slider("learning_rate", 0.1, 2.0, 1.0)
 model = AdaBoostClassifier(
     n_estimators=100,
     learning_rate=learning_rate,
-    algorithm="SAMME",
+    
     random_state=42
 )
 
